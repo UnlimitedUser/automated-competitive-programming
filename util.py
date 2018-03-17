@@ -29,7 +29,7 @@ def open_source(judge, path, name, extension):
     subprocess.call(['subl', os.path.join(judge, path, name + extension)])
 
 # Command line parsing
-parser = argparse.ArgumentParser(description='Automatic testcase checker for competitive programming')
+parser = argparse.ArgumentParser(description='Automatic testcase checker for competitive programming.')
 parser.add_argument('-j', '--judge',
                     choices=JUDGES, required=True)
 group = parser.add_mutually_exclusive_group(required=True)

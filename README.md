@@ -27,3 +27,6 @@ Just clone the repository:
 - [ ] Add more online judges support
 - [ ] Add more languages support
 - [ ] Make an example
+- [ ] Make the code run faster
+- [ ] Add a configuration file
+- [ ] Make the code more idiomatic
