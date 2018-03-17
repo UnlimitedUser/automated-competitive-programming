@@ -21,6 +21,7 @@ Just clone the repository:
 
 ## TODO
 - [ ] Whole contest fetching
+- [ ] Handle more verdicts
 - [ ] Handle corner cases
 - [ ] Refactor code
 - [ ] Add more online judges support
