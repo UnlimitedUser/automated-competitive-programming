@@ -23,10 +23,13 @@ Just clone the repository:
 - [ ] Whole contest fetching
 - [ ] Handle more verdicts
 - [ ] Handle corner cases
-- [ ] Refactor code
+- [ ] Refactor
 - [ ] Add more online judges support
 - [ ] Add more languages support
 - [ ] Make an example
-- [ ] Make the code run faster
+- [ ] Increase code execution speed (?)
 - [ ] Add a configuration file
-- [ ] Make the code more idiomatic
+- [ ] GUI (?)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
