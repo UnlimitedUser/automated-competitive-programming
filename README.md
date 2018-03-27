@@ -20,16 +20,7 @@ Just clone the repository:
 ```git clone https://github.com/UnlimitedUser/automated-competitive-programming.git```
 
 ## TODO
-- [ ] Whole contest fetching
-- [ ] Handle more verdicts
-- [ ] Handle corner cases
-- [ ] Refactor
-- [ ] Add more online judges support
-- [ ] Add more languages support
-- [ ] Make an example
-- [ ] Increase code execution speed (?)
-- [ ] Add a configuration file
-- [ ] GUI (?)
+See [TODO](TODO). The ones marked with '(?)' are under consideration.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
