@@ -8,3 +8,5 @@
 - Increase code execution speed (?)
 - Add a configuration file
 - GUI (?)
+- Cleanup of input and output files
+- Memory used and time elapsed indicators
