@@ -22,18 +22,18 @@ def fetch_tests(judge, problem_url_prefix, contest_id, name):
         test_number += 1
 
 
-def check_problem(judge, contest_id, name):
-    subprocess.check_output(['g++', '-o', contest_id, '-std=c++14',
-                            os.path.join(judge, name, contest_id + '.cpp')])
+def check_problem(judge, contest_id, name, compiler, flags):
+    subprocess.check_output([compiler, '-o', contest_id, flags,
+                            os.path.join(judge, contest_id, name + '.cpp')])
     test_number = 1
-    while os.path.isfile(os.path.join(judge, name,
+    while os.path.isfile(os.path.join(judge, contest_id,
                                       'input' + str(test_number) + '.txt')):
         output = subprocess.check_output(
             ['./' + contest_id],
-            input=''.join(open(os.path.join(judge, name,
+            input=''.join(open(os.path.join(judge, contest_id,
                           'input' + str(test_number) + '.txt'), 'r')
                           .readlines()).encode())
-        correct_output = ''.join(open(os.path.join(judge, name,
+        correct_output = ''.join(open(os.path.join(judge, contest_id,
                                  'output' + str(test_number) + '.txt'), 'r')
                                  .readlines())
         if (output.decode('utf-8').replace('\n', ' ').strip() ==

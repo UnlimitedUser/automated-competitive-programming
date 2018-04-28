@@ -1,0 +1,18 @@
+{
+    "url": {
+        "problem_prefix": {
+            "codeforces": "http://codeforces.com/problemset/problem/"
+        },
+        "contest_prefix": {
+            "codeforces": "http://codeforces.com/contest/"
+        }
+    },
+    "default_code": {
+        "path": "./default.cpp"
+    },
+    "compiler": {
+        "name": "g++",
+        "flags": "-std=c++14"
+    },
+    "editor": "subl"
+}

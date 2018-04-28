@@ -1,12 +1,14 @@
-- Whole contest fetching
-- Handle more verdicts
-- Handle corner cases
-- Refactor
-- Add more online judges support
-- Add more languages support
-- Make an example
-- Increase code execution speed (?)
-- Add a configuration file
-- GUI (?)
-- Cleanup of input and output files
-- Memory used and time elapsed indicators
+- [ ] Whole contest fetching
+- [ ] Handle more verdicts
+- [ ] Handle corner cases
+- [ ] Refactor
+- [ ] Add more online judges support
+- [ ] Add more languages support
+- [ ] Make an example
+- [ ] Increase code execution speed (?)
+- [x] Add a configuration file
+- [ ] GUI (?)
+- [ ] Cleanup/Removal of input and output files
+- [ ] Memory used and time elapsed indicators
+- [ ] Submit solution is online judge API
+- [ ] Show submission history
